@@ -1,9 +1,6 @@
 require_relative "./config/environment"
 require "sinatra/activerecord/rake"
 
-# require './app' # or wherever your main application file is
-
-
 desc "Start the server"
 task :server do  
   if ActiveRecord::Base.connection.migration_context.needs_migration?

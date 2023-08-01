@@ -1,7 +1,7 @@
 require_relative "./config/environment"
 require "sinatra/activerecord/rake"
 
-# require './app' # or wherever your main application file is
+require './app' # or wherever your main application file is
 
 
 desc "Start the server"
